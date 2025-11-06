@@ -257,7 +257,7 @@ def teszt():
         print("Nem megfelelő szám")
 
 # Teszteld a függvényt
-teszt()
+
 
 
 
