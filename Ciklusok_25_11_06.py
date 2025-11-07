@@ -68,10 +68,8 @@ print()
 for i in range(0,n,1):
       print(str(i+1)+szoveg[i],end=" ")
 
- daa= random.randint(0,szoveg)
-print(daa)
-#írasson ki 5 db véletlen karaktert a szovegbol
 
+#írasson ki 5 db véletlen karaktert a szovegbol
 
 
 

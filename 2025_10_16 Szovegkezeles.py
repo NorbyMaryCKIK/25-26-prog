@@ -1,5 +1,5 @@
 import random
- lebegőpontos - float -tört
+lebegőpontos - float -tört
 a = 1.25
 b = float(input("adjon meg egy tizedestörtet: "))
 print (b*4)
