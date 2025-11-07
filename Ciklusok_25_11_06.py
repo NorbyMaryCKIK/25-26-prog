@@ -1,3 +1,5 @@
+import random
+
 """
 Ciklusok- ismétlés - Loop
 
@@ -56,6 +58,20 @@ n = len(szoveg)
 for index in range(0, len(szoveg),1):
     
     print(szoveg[n-index-1],end="")
+
+for i in range(-1, -n-1, -1):
+      print(szoveg[index],end="")
+print()
+
+# írassa ki a szöveget az idexével társítva! (1k 2a 3l 4a 5p)
+
+for i in range(0,n,1):
+      print(str(i+1)+szoveg[i],end=" ")
+
+ daa= random.randint(0,szoveg)
+print(daa)
+#írasson ki 5 db véletlen karaktert a szovegbol
+
 
 
 
