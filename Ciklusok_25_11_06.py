@@ -15,34 +15,55 @@ Tesztelős -While
 """
 #HF
 
-def ciklusokfor1():
-    for elem in range(1,11,1):
-        print(elem,end=" ")
+
+for elem in range(1,11,1):
+    print(elem,end=" ")
 
     print("")
 
-def ciklusokfor2():
-    for elem in range(0,19,2):
-        print(elem)
+for elem in range(0,19,2):
+    print(elem)
 
-def ciklusokfor3():
-    szoveg = "kalapács"
-    print(szoveg)
 
-    for karakter in szoveg[:-1]:
+szoveg = "kalapács"
+   
+for karakter in szoveg:
         print(karakter, end=",")
-    print(szoveg[-1])
-
+print()
     
+for index in range(0,len(szoveg)-1,1):
+        print(szoveg[index]+",",end="")
+print(szoveg[-1])
+
+print("")
+
+
+for i in range(10,0,-1):
+        print(i,end=" ")
+print()
 
 
 
+for i in range(30,50):
+        if(i%4==0):
+            print(i)
 
+for index in range(len(szoveg)-1,-1,-1):
+    print(szoveg[index],end="")
+print()
 
-
-def main():
-    ciklusokfor1()
-    # ciklusokfor2()
-    ciklusokfor3()
+n = len(szoveg)
+for index in range(0, len(szoveg),1):
     
-main()
+    print(szoveg[n-index-1],end="")
+
+
+
+
+
+
+
+
+        
+   
+    
