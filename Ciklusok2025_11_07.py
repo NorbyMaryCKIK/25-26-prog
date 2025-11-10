@@ -11,7 +11,8 @@ print()
 ujszoveg = ""
 
 for index in range(-1, -n-1, -1):
-      ujszoveg += sz[index]
+    ujszoveg += sz[index]
+
 print(ujszoveg)
 
 
