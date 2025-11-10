@@ -9,3 +9,6 @@ for a in range(1,11,1):
     print(velszam,end=" ")
 print()
 print(osszeg)
+
+#hany darab paros veletle szamot generalt ki
+#melyik a legnagyobbvéletlen szám
